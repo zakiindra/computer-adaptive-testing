@@ -1,0 +1,10 @@
+/login
+/index
+/tests/<id>/questions/<id>
+/questions
+/questions/create
+/questions/<id>
+/users
+/users/create
+/users/<id>
+

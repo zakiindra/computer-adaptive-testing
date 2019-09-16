@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% include "sidemenu.html" %}
+    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+            <h1 class="h2">Laporan Hasil Peserta Tes</h1>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-striped table-sm">
+                <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Nama Lengkap</th>
+                    <th>Waktu Tes</th>
+                    <th>Aksi</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Mawar Hijau Daun</td>
+                    <td>03-09-2019 22:35</td>
+                    <td>Lihat Hasil</td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+    </main>
+{% endblock %}
